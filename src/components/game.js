@@ -3,10 +3,7 @@ import {Dot} from './dot';
 
 function Game() {
   return (
-    <div>
-      Game component
-      <Dot/>
-    </div>
+    <Dot/>
   );
 }
 

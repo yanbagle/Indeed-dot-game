@@ -1,0 +1,14 @@
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  animation: myfirst 2s 1;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  50%  {background: blue; left: 0px; top: 200px;}
+}

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
+import './dot.css';
 
 function Dot() {
   return (
-    <div>
-      Dot component
-    </div>
+    <div className="dot"></div>
   );
 }
 
