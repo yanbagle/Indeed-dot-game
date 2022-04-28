@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import './dot.css';
 
 function Dot() {
+  const margin = Math.floor(Math.random() * 300) + 'px';
   return (
-    <div className="dot"></div>
+    <div 
+      style={{ marginLeft: margin }} 
+      className="dot">
+    </div>
   );
 }
 
